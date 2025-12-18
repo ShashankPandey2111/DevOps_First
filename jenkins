@@ -4,13 +4,13 @@ pipeline
       stage('Build'){
           steps{
                 echo ' Building example'
-    }
+  }
 }
-stage ('Test'){
-steps{
-echo 'Testing exapmle'}}
-stage('Deploy'){
-steps{
-echo ' Deployiung example'}
-}
+  stage ('Test'){
+    steps{
+      echo 'Testing exapmle'}}
+  stage('Deploy'){
+    steps{
+      echo ' Deployiung example'}
+  }
 }
